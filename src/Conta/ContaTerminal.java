@@ -1,3 +1,4 @@
+package Conta;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -12,7 +13,7 @@ public class ContaTerminal {
        int numeroConta = scanner.nextInt();
        scanner.nextLine();
 
-       System.out.println("Por favor informe sua agênncia: ");
+       System.out.println("Por favor informe sua agência: ");
        String agencia = scanner.nextLine();
         
        System.out.println("Por favor informe se nome: ");
