@@ -1,4 +1,4 @@
-package Conta;
+package Estudo.Conta;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -9,11 +9,11 @@ public class ContaTerminal {
        Scanner scanner = new Scanner(System.in);
        try{
 
-       System.out.println("Por favor digite o número da conta! ");
+       System.out.println("Por favor digite o nï¿½mero da conta! ");
        int numeroConta = scanner.nextInt();
        scanner.nextLine();
 
-       System.out.println("Por favor informe sua agência: ");
+       System.out.println("Por favor informe sua agï¿½ncia: ");
        String agencia = scanner.nextLine();
         
        System.out.println("Por favor informe se nome: ");
@@ -22,12 +22,12 @@ public class ContaTerminal {
        System.out.println("Por favor informe seu saldo: ");
        double saldo = scanner.nextDouble();
 
-        System.out.println("Olá¡ " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agênncia é " + agencia +", conta " + numeroConta + " e seu saldo " + saldo +  " já está disponível para saque");
+        System.out.println("Olï¿½ " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agï¿½nncia ï¿½ " + agencia +", conta " + numeroConta + " e seu saldo " + saldo +  " jï¿½ estï¿½ disponï¿½vel para saque");
 
 
        
        } catch (InputMismatchException e){
-        System.err.println("os campos com exeção de nome precisão ser numeros!");
+        System.err.println("os campos com exeï¿½ï¿½o de nome precisï¿½o ser numeros!");
        } finally{
         scanner.close();
        }
