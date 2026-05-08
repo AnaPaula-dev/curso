@@ -1,4 +1,4 @@
-package Modelagem;
+package Modelagem.Cod_Interfaces;
 
 public interface ReprodutorMusical {
     void tocar();

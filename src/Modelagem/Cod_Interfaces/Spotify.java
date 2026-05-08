@@ -1,4 +1,4 @@
-package Modelagem;
+package Modelagem.Cod_Interfaces;
 
 public class Spotify implements ReprodutorMusical {
     public void tocar() {
